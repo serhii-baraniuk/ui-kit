@@ -1,3 +1,2 @@
-import React from "react";
-import { InputProps } from "./index.types";
-export declare const Input: React.FC<InputProps>;
+import React, { InputHTMLAttributes } from "react";
+export declare const Input: React.FC<InputHTMLAttributes<HTMLInputElement>>;

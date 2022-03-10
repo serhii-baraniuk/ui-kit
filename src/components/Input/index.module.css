@@ -1,0 +1,14 @@
+.root {
+  padding: 15px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.37;
+  letter-spacing: -0.4px;
+  color: #262b52;
+  border-radius: 3px;
+  border: 1px solid #dbdcff;
+  background-color: #fff;
+  outline: 0 !important;
+  box-shadow: none;
+  border-color: #aaafff;
+}

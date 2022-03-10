@@ -1,8 +1,16 @@
-import React from 'react';
+import React, { ButtonHTMLAttributes, InputHTMLAttributes } from 'react';
 
-interface ButtonProps {
-    text?: string;
+interface Props extends ButtonHTMLAttributes<HTMLButtonElement> {
+    color: string;
+    colorHover: string;
+    background: string;
+    backgroundHover: string;
+    padding: string;
+    fontSize: string | number;
+    isActive?: boolean;
 }
-declare const Button: React.FC<ButtonProps>;
+declare const Button: React.FC<Props>;
 
-export { Button };
+declare const Input: React.FC<InputHTMLAttributes<HTMLInputElement>>;
+
+export { Button, Input };
